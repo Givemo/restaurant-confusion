@@ -5,7 +5,7 @@
  run the following commands</p>
 <p><code>npm install</code></p>
 <p><code>npm start</code></p>
-<p>To create a <code>dist</code> folder ready for deployment, run:</p>
+<p>To recreate a <code>dist</code> folder ready for deployment, run:</p>
 <p><code>npm build</code></p>
 <p>I deployed this site on github pages, so if you wish to do the same follow the instructions below:</p>
 <p>First make sure you create a git repository for your project on github.</p>
