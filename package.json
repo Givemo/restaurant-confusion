@@ -15,7 +15,7 @@
     "imagemin": "imagemin img/* -o dist/img",
     "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",
     "build": "npm run clean && npm run copyfonts && npm run imagemin && npm run usemin",
-    "deploy": "git push origin :gh-pages && git subtree push --prefix dist origin gh-pages"
+    "deploy": "git add dist && git commit -m \"Initial dist subtree commit\" && git push origin :gh-pages && git subtree push --prefix dist origin gh-pages"
   },
   "author": "",
   "license": "ISC",
