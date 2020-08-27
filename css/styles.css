@@ -37,10 +37,7 @@ body {
 .jumbotron {
   padding: 70px 30px 70px 30px;
   margin: 0px auto;
-  background: linear-gradient(
-      rgba(137, 180, 243, 0.45),
-      rgba(78, 109, 247, 0.45)
-    ),
+  background: linear-gradient(rgba(0,0,0,.9), rgba(35, 10, 128, 0.8)),
     url(../img/page2_img.jpg);
   color: floralwhite;
   background-size: cover;
